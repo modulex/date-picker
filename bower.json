@@ -1,11 +1,6 @@
 {
     "name": "modulex-date-picker",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/date-picker.git"
-    },
     "ignore": [
         "**/*",
         "!build/**/*",
@@ -15,11 +10,11 @@
     ],
     "dependencies": {
         "modulex": "*",
-        "modulex-feature": "modulex-feature#1.x",
-        "modulex-ua": "modulex-ua#1.x",
-        "modulex-node": "modulex-node#1.x",
-        "modulex-component": "modulex-component#1.x",
+        "modulex-feature": "modulex/feature#1.x",
+        "modulex-ua": "modulex/ua#1.x",
+        "modulex-node": "modulex/node#1.x",
+        "modulex-component": "modulex/component#1.x",
         "xtemplate": "xtemplate#3.x",
-        "gregorian-calendar-format": "gregorian-calendar-format#1.x"
+        "gregorian-calendar-format": "yiminghe/gregorian-calendar-format#1.x"
     }
 }
